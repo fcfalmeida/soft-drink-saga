@@ -8,14 +8,26 @@
 
 config_version=4
 
-_global_script_classes=[  ]
+_global_script_classes=[ {
+"base": "Control",
+"class": "DialogueBox",
+"language": "GDScript",
+"path": "res://gui/dialogue/DialogueBox.gd"
+}, {
+"base": "Reference",
+"class": "DialogueDatabase",
+"language": "GDScript",
+"path": "res://gui/dialogue/DialogueDatabase.gd"
+} ]
 _global_script_class_icons={
-
+"DialogueBox": "",
+"DialogueDatabase": ""
 }
 
 [application]
 
 config/name="Soft Drink Saga"
+run/main_scene="res://Scenes/StartMenu.tscn"
 config/icon="res://icon.png"
 
 [rendering]
