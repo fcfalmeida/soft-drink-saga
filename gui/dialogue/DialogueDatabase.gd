@@ -3,7 +3,6 @@ class_name DialogueDatabase
 var dialogue: Dictionary
 
 func _init():
-	print("loading dialogue...")
 	load_dialogue("res://dialogue.json")
 
 # Loads dialogue data from .json file
