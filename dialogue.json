@@ -9,15 +9,15 @@
     "options": [
       {
         "text": "Option 1",
-        "resultDialog": 3
+        "result_dialogue": "3"
       },
       {
         "text": "Option 2",
-        "resultDialog": 4
+        "result_dialogue": "4"
       },
       {
         "text": "Option 3",
-        "resultDialog": 3
+        "result_dialogue": "3"
       }
     ],
     "next": null
