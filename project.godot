@@ -18,10 +18,22 @@ _global_script_classes=[ {
 "class": "DialogueDatabase",
 "language": "GDScript",
 "path": "res://gui/dialogue/DialogueDatabase.gd"
+}, {
+"base": "Reference",
+"class": "Milestone",
+"language": "GDScript",
+"path": "res://gui/dialogue/Milestone.gd"
+}, {
+"base": "Reference",
+"class": "MilestoneDatabase",
+"language": "GDScript",
+"path": "res://gui/dialogue/MilestoneDatabase.gd"
 } ]
 _global_script_class_icons={
 "DialogueBox": "",
-"DialogueDatabase": ""
+"DialogueDatabase": "",
+"Milestone": "",
+"MilestoneDatabase": ""
 }
 
 [application]
