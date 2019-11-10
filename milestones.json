@@ -1,0 +1,14 @@
+{
+  "1": {
+    "description": "Obtain stone mask",
+    "non_completion_dialogue": "5",
+    "completion_text": "You have obtained a stone mask",
+    "completed": false
+  },
+  "2": {
+    "description": "Obtain Diamond Cola",
+    "non_completion_dialogue": "6",
+    "completion_text": "You have obtained Diamond Cola",
+    "completed": false
+  }
+}

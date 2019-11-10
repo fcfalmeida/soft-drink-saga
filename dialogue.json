@@ -2,7 +2,8 @@
   "1": {
     "text": "Hello!",
     "options": [],
-    "next": "2"
+    "next": "2",
+    "required_milestone": null
   },
   "2": {
     "text": "Please choose an option",
@@ -20,16 +21,31 @@
         "result_dialogue": "3"
       }
     ],
-    "next": null
+    "next": null,
+    "required_milestone": null
   },
   "3": {
     "text": "You have chosen either option 1 or 3",
     "options": [],
-    "next": null
+    "next": null,
+    "required_milestone": "1"
   },
   "4": {
     "text": "You have chosen option 2",
     "options": [],
-    "next": null
+    "next": "2",
+    "required_milestone": null
+  },
+  "5": {
+    "text": "You need the stone mask to do this",
+    "options": [],
+    "next": "2",
+    "required_milestone": null
+  },
+  "6": {
+    "text": "You still need some fuel for your spaceship",
+    "options": [],
+    "next": null,
+    "required_milestone": null
   }
 }
