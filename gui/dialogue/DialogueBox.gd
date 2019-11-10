@@ -29,6 +29,7 @@ func advance_dialogue():
 	if current_dialogue.next != null:
 		if check_required_milestone(current_dialogue):
 			current_dialogue = dialogue_database.find_by_id(current_dialogue.next)
+			complete_milestone(current_dialogue)
 			show_current_dialogue()
 		else:
 			show_milestone_required(current_dialogue)
@@ -43,6 +44,7 @@ func choose_dialogue_option(option):
 	
 	if check_required_milestone(result_dialogue):
 		current_dialogue = result_dialogue
+		complete_milestone(current_dialogue)
 		show_current_dialogue()
 	else:
 		show_milestone_required(result_dialogue)
@@ -72,3 +74,7 @@ func check_required_milestone(dialogue) -> bool:
 		return milestone_database.is_milestone_completed(milestone_id)
 	
 	return true
+	
+func complete_milestone(dialogue):
+	if dialogue.complete_milestone != null:
+		milestone_database.complete_milestone(dialogue.complete_milestone)

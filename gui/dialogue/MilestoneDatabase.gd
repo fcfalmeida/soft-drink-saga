@@ -18,8 +18,10 @@ func load_milestones(file_path):
 	
 # Marks the milestone with the given id as completed
 func complete_milestone(milestone_id):
-	milestones.milestone_id.completed = true
-	
+	var milestone = milestones[milestone_id]
+	milestone.completed = true
+	milestones[milestone_id] = milestone
+
 # Checks if the milestone with the given id has already been completed
 func is_milestone_completed(milestone_id):
 	var milestone = milestones.get(milestone_id)
