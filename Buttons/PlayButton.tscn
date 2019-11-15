@@ -15,3 +15,4 @@ custom_colors/font_color_shadow = Color( 0.133333, 0.156863, 0.14902, 1 )
 custom_constants/shadow_offset_x = 0
 custom_constants/shadow_offset_y = 6
 text = "Play"
+align = 1
