@@ -33,7 +33,6 @@ func advance_dialogue():
 			current_dialogue = dialogue_database.find_by_id(current_dialogue.next)
 			complete_milestone(current_dialogue)
 			show_current_dialogue()
-			update_background()
 		else:
 			show_milestone_required(current_dialogue)
 		
@@ -58,6 +57,7 @@ func show_current_dialogue():
 		optionCount += 1
 	
 	$DialogueText.set_bbcode(dialogue_box_text)
+	update_background()	
 	
 func show_milestone_required(dialogue):
 	var milestone_id = dialogue.required_milestone
