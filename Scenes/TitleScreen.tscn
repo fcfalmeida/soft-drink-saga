@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://Scripts/title_screen.gd" type="Script" id=1]
-[ext_resource path="res://Art/1x/background1.png" type="Texture" id=2]
+[ext_resource path="res://Art/1x/1.png" type="Texture" id=2]
 [ext_resource path="res://Art/1x/logo.png" type="Texture" id=3]
 [ext_resource path="res://Buttons/PlayButton.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Scripts/PlayButton.gd" type="Script" id=5]
@@ -28,9 +28,6 @@ anchor_bottom = 1.0
 rect_min_size = Vector2( 1280, 720 )
 rect_scale = Vector2( 0.664844, 0.667017 )
 texture = ExtResource( 2 )
-__meta__ = {
-"_edit_lock_": true
-}
 
 [node name="Menu" type="VBoxContainer" parent="."]
 margin_left = 120.0
