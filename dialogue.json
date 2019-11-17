@@ -55,14 +55,14 @@
   },
   "10": {
     "backgroundID": "3",
-    "next": "0",
+    "next": null,
     "options": [
       {
-        "text": "1.Emerald green lake.",
+        "text": "Emerald green lake.",
         "result_dialogue": "12"
       },
       {
-        "text": "2.Weird tall rubber tree.",
+        "text": "Weird tall rubber tree.",
         "result_dialogue": "15"
       }
     ],
@@ -126,7 +126,7 @@
     "backgroundID": "6",
     "next": "22",
     "options": null,
-    "text": "After approaching the pillar, there’s a noticeable symbol that looks like [the player’s favourite thing]."
+    "text": "After approaching the pillar, there’s a noticeable symbol that looks like an orange crystal ball with 4 stars on it."
   },
   "22": {
     "backgroundID": "6",
@@ -138,7 +138,7 @@
     "backgroundID": "6",
     "next": "24",
     "options": null,
-    "text": "It wasn’t as heavy as you had anticipated and it falls to the bottle cap filled ground. Under it, you notice there’s a mask with a symbol that looks like [the player’s favourite thing]..."
+    "text": "It wasn’t as heavy as you had anticipated and it falls to the bottle cap filled ground. Under it, you notice there’s a mask with a symbol that looks like an orange crystal ball with 4 stars on it..."
   },
   "24": {
     "backgroundID": "6",
@@ -186,7 +186,7 @@
     "backgroundID": "7",
     "next": "32",
     "options": null,
-    "text": "There is a weird formation on one of the walls, it appears to be a slot for some kind of face, perhaps the mask? On the forehead, it has a symbol that looks like [the player’s favourite thing]."
+    "text": "There is a weird formation on one of the walls, it appears to be a slot for some kind of face, perhaps the mask? On the forehead, it has a symbol that looks like an orange crystal ball with 4 stars on it."
   },
   "32": {
     "backgroundID": "7",
@@ -220,7 +220,7 @@
   },
   "37": {
     "backgroundID": "7",
-    "next": "0",
+    "next": null,
     "options": null,
     "text": "You startup the ship and the fuel is barely enough to get you to the moon."
   }
