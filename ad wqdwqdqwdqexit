@@ -1,0 +1,218 @@
+[33mcommit 456fe07f4ec237317dbec5d2272a453f14e78445[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Sun Nov 17 17:50:11 2019 +0000
+
+    added some backgrounds
+
+[33mcommit aeeb93ef7050efd597f20f13376b793761b60a30[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Sun Nov 17 17:18:32 2019 +0000
+
+    update gitignore
+
+[33mcommit 2c9c088a2a6b523d6ba4ca6ed3edd8c72c87a82f[m
+Merge: fcc17c9 62fb60f
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Sun Nov 17 17:18:04 2019 +0000
+
+    delete Dialogue scene
+
+[33mcommit fcc17c9117d4eac3f9fea3beb537afbc4faa0494[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Sun Nov 17 17:11:29 2019 +0000
+
+    fix dialogue updating
+
+[33mcommit bd08ff84ff243a73ae20b5d33a10d9020089d6bf[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Sun Nov 17 17:10:47 2019 +0000
+
+    fix background updating
+
+[33mcommit ac85541f8f8099c388ddf6db6677ecc977a37c63[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Sun Nov 17 17:03:10 2019 +0000
+
+    change main scene to Title Screen
+
+[33mcommit 474880e4d3ced272583a72a05f3630ecc0121155[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Sun Nov 17 17:00:39 2019 +0000
+
+    add background transitioning when advancing the dialogue
+
+[33mcommit 5e30adc5f596f36018f6034a8ebc604658c17e91[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Sun Nov 17 15:18:54 2019 +0000
+
+    change dialogue box text formatting
+
+[33mcommit a66fb1554e5b877ef23726b12e6b63cd50e4ae3a[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Sun Nov 17 15:18:39 2019 +0000
+
+    add dialogue font
+
+[33mcommit 62fb60fc285041092cb685e09d9e08611cf84de9[m
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Sun Nov 17 14:25:21 2019 +0000
+
+    fixed last commit
+
+[33mcommit 4d38187f6651ad6f334a0166995765ea76fce424[m
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Sun Nov 17 14:24:51 2019 +0000
+
+    added texture rect to dialogue scene
+
+[33mcommit cd0fe94cd6363eed7763f62638deaba2a57b7f59[m
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Sun Nov 17 12:50:38 2019 +0000
+
+    added dialogTable.json with all the lines in the game
+
+[33mcommit 4e2516c306f5f1352afb4537989f70415e702a2f[m
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Sat Nov 16 13:32:07 2019 +0000
+
+    Changed background for the menu
+
+[33mcommit 4776671a6ba44b7cd6813837c7fc945442e6f70b[m
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Fri Nov 15 01:31:04 2019 +0000
+
+    keyboard keys now work for the menu
+
+[33mcommit 44eff598cc62275896cc452daffcbae45c753028[m
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Fri Nov 15 01:28:09 2019 +0000
+
+    implemented fade in animation from play button to scene
+
+[33mcommit ed8775d5809d0e2074098b58e0ca9dd7b368ee5b[m
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Fri Nov 15 01:21:44 2019 +0000
+
+    added missing file logo.png and deleted unwanted scenes
+
+[33mcommit ce3c78e9712386930d08f3489f0fc56179ddaa6b[m
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Fri Nov 15 01:12:23 2019 +0000
+
+    added some scripts for the buttons to work and change scenes
+
+[33mcommit 8a82d8183034328c604c558af1250947fc62f955[m
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Fri Nov 15 00:13:22 2019 +0000
+
+    Added fade_in animation
+
+[33mcommit 902afd8eecc20b40072689d021568d04ed26fdaf[m
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Thu Nov 14 23:50:39 2019 +0000
+
+    Added Buttons to menu
+
+[33mcommit 814528cdb15ea376ea072681a0cf3f02a71cfa8d[m
+Merge: 333ab10 5157d9c
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Sun Nov 10 23:49:08 2019 +0000
+
+    Merge branch 'master' of https://github.com/jiroelz/soft-drink-saga
+
+[33mcommit 333ab1095fb53b84a8a273673e20b20a35e0edf2[m
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Sun Nov 10 23:49:03 2019 +0000
+
+    Added title screen scene (tried)
+
+[33mcommit 5157d9cf0a377e37e0b641d92b1009f5c2ff0342[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Sun Nov 10 12:59:29 2019 +0000
+
+    add ability to complete milestones through certain dialogues
+
+[33mcommit b5da68ec52f60870ccd13b071ccb672fc779de6c[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Sun Nov 10 12:59:09 2019 +0000
+
+    update folder structure
+
+[33mcommit 7f00841b44664241e9ca7bb8bc5affb63a61c155[m
+Merge: eeefd75 3b42e51
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Sun Nov 10 12:29:38 2019 +0000
+
+    Merge branch 'master' of github.com:jiroelz/soft-drink-saga
+
+[33mcommit eeefd755094aeaf48f8a8f9a8bb7da76cf955333[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Sun Nov 10 12:29:23 2019 +0000
+
+    implement milestone system
+
+[33mcommit 3b42e51eebe69c5d5052ca58e2bcaabaf7d4c357[m
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Sun Nov 10 04:21:25 2019 +0000
+
+    changed title screen picture
+
+[33mcommit 742fa8f6b6c962f736a91ef1e7fc5dd5521dd18f[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Sat Nov 9 00:30:59 2019 +0000
+
+    add ability to advance dialogue with spacebar and choose options with number keys
+
+[33mcommit a38cc84a721383f02a7ff1d523c9ec4c0d9ed919[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Sat Nov 9 00:30:16 2019 +0000
+
+    fix errors in dialogue.json file
+
+[33mcommit 0968545922c3490170e8d81c638710745ec1cafd[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Thu Nov 7 23:54:55 2019 +0000
+
+    add Game scene
+
+[33mcommit c3ce59e75c0ee92eaf528c62757b216d79135a83[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Thu Nov 7 23:54:15 2019 +0000
+
+    add dialogue json file
+
+[33mcommit e416126dc177c7b04cf1975a86ceb3385da74df1[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Thu Nov 7 23:52:18 2019 +0000
+
+    add Dialogue scene
+
+[33mcommit 42632c1dc3e090ed47fc39f325640cc006f69804[m
+Author: Francisco Almeida <franciscocfalmeida@gmail.com>
+Date:   Thu Nov 7 23:50:35 2019 +0000
+
+    add DialogDatabase class
+
+[33mcommit faecd691dcb3fc742d5619e3725b2a7f3be12a37[m
+Author: RicardoCQB <ricardo_cqb@hotmail.com>
+Date:   Sat Nov 2 23:29:01 2019 +0000
+
+    Added initial files and first background
+
+[33mcommit 61a968a43b79c88f08991e70d9efde35f2111740[m
+Author: jiroelz <37899753+jiroelz@users.noreply.github.com>
+Date:   Sat Nov 2 21:33:10 2019 +0000
+
+    Update .gitignore
+
+[33mcommit 58c46ce5810bbd470bc9ec608ba981c029677ff4[m
+Author: jiroelz <37899753+jiroelz@users.noreply.github.com>
+Date:   Tue Oct 22 11:54:56 2019 +0100
+
+    Update README.md
+
+[33mcommit d8008127c073e360450b37a0e252e7a8e2e4dbb6[m
+Author: jiroelz <37899753+jiroelz@users.noreply.github.com>
+Date:   Tue Oct 22 01:20:14 2019 +0100
+
+    Initial commit

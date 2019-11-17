@@ -1,64 +1,227 @@
 {
   "1": {
-    "text": "Hello!",
-    "options": [],
+    "backgroundID": "1",
     "next": "2",
-    "required_milestone": null,
-    "complete_milestone": null
+    "options": null,
+    "text": "You are a survivor of World War Soda (WWS) between Bepis™ and Loca-Cola™, the two most feared companies of carbonated drinks in the known universe. Both found a way to use their drinks as fuel and that’s what caused the war."
   },
   "2": {
-    "text": "Please choose an option",
-    "options": [
-      {
-        "text": "Option 1",
-        "result_dialogue": "3"
-      },
-      {
-        "text": "Option 2",
-        "result_dialogue": "4"
-      },
-      {
-        "text": "Option 3",
-        "result_dialogue": "3"
-      }
-    ],
-    "next": null,
-    "required_milestone": null,
-    "complete_milestone": null
+    "backgroundID": "1",
+    "next": "3",
+    "options": null,
+    "text": "You remember escaping the inhabitable war zone Earth had become. You were on your spaceship but you ran out of fuel and ended up crashing on the surface of some planet."
   },
   "3": {
-    "text": "The cave door opens with a loud noise",
-    "options": [],
-    "next": null,
-    "required_milestone": "1",
-    "complete_milestone": null
+    "backgroundID": "2",
+    "next": "4",
+    "options": null,
+    "text": "You wake up in the middle of nowhere, but at a distance, you can see a cute cottage on the flat peak of the small mountain."
   },
   "4": {
-    "text": "You have obtained a stone mask",
-    "options": [],
-    "next": "2",
-    "required_milestone": null,
-    "complete_milestone": "1"
+    "backgroundID": "3",
+    "next": "5",
+    "options": null,
+    "text": "The mountain seemed small… Maybe because it was so far away… Damn, I’m tired."
   },
   "5": {
-    "text": "You need the stone mask to do this",
-    "options": [],
-    "next": "2",
-    "required_milestone": null,
-    "complete_milestone": null
+    "backgroundID": "3",
+    "next": "6",
+    "options": null,
+    "text": "You enter the house and look around. After admiring the anime posters on the walls and weird pillows, you come across a diary which belonged to a fellow human who also crashed into that same planet."
   },
   "6": {
-    "text": "You still need some fuel for your spaceship",
-    "options": [],
-    "next": null,
-    "required_milestone": null,
-    "complete_milestone": null
+    "backgroundID": "3",
+    "next": "7",
+    "options": null,
+    "text": "In it, he mentions the planet’s name (Planet Fizz) and that on the planet’s moon it rains Bepis™ (“On that moon, it rains P*psi, I mean, Bepis™”)."
   },
   "7": {
-    "text": "You have obtained Diamond Cola",
-    "options": [],
-    "next": null,
-    "required_milestone": null,
-    "complete_milestone": "2"
+    "backgroundID": "3",
+    "next": "8",
+    "options": null,
+    "text": "He also mentions that Bepis™ can be used as fuel for your spaceship. You must now find a way to repair your broken spaceship (fuel tank leak) and find enough fuel to reach the moon’s infinite stock of Bepis™."
+  },
+  "8": {
+    "backgroundID": "3",
+    "next": "9",
+    "options": null,
+    "text": "The diary ends with: “This mountain is called Mountain Duwu™ and I had some moments of happiness here, too bad there was nobody to share it with…”."
+  },
+  "9": {
+    "backgroundID": "3",
+    "next": "10",
+    "options": null,
+    "text": "You get out of the house ready to look for escape solutions. You see places that could have useful stuff there."
+  },
+  "10": {
+    "backgroundID": "3",
+    "next": "0",
+    "options": [
+      {
+        "text": "1.Emerald green lake.",
+        "result_dialogue": "12"
+      },
+      {
+        "text": "2.Weird tall rubber tree.",
+        "result_dialogue": "15"
+      }
+    ],
+    "text": "Choose the first place you want to visit!. "
+  },
+  "12": {
+    "backgroundID": "4",
+    "next": "13",
+    "options": null,
+    "text": "A small emerald green lake with an even smaller island in the middle. On it, there appears to be a blue turtle wearing a pair of pointy sunglasses just chilling for no apparent reason."
+  },
+  "13": {
+    "backgroundID": "4",
+    "next": "14",
+    "options": null,
+    "text": "You go up and try to talk to the turtle but nothing happens. Seems pretty happy though."
+  },
+  "14": {
+    "backgroundID": "4",
+    "next": "10",
+    "options": null,
+    "text": "What pretty place indeed, nice temperature on the water although this planet has no sun nearby. You admire the view for a while but there is no time to waste so you come back to the mountain."
+  },
+  "15": {
+    "backgroundID": "5",
+    "next": "16",
+    "options": null,
+    "text": "A huge rubber tree which for some reason is wearing a straw hat with a red stripe around it. Damn, this planet is weird."
+  },
+  "16": {
+    "backgroundID": "5",
+    "next": "17",
+    "options": null,
+    "text": "I think I saw this hat somewhere. Anyway, I can use the latex of this tree to fix my fuel tank. Better to head back now."
+  },
+  "17": {
+    "backgroundID": "5",
+    "next": "18",
+    "options": null,
+    "text": "Disgraceful, you got lost because you avoided climbing the mountain again. That would have helped you finding your path to the spaceship again…"
+  },
+  "18": {
+    "backgroundID": "6",
+    "next": "19",
+    "options": null,
+    "text": "What’s this? Litter? But only bottle caps?........."
+  },
+  "19": {
+    "backgroundID": "6",
+    "next": "20",
+    "options": null,
+    "text": "As you follow the growing density of bottle caps in the ground, start to see some kind of ruins…"
+  },
+  "20": {
+    "backgroundID": "6",
+    "next": "21",
+    "options": null,
+    "text": "There are giant bottle caps spread around now, some of them almost completely buried. In the middle of those ruins there’s a large pillar."
+  },
+  "21": {
+    "backgroundID": "6",
+    "next": "22",
+    "options": null,
+    "text": "After approaching the pillar, there’s a noticeable symbol that looks like [the player’s favourite thing]."
+  },
+  "22": {
+    "backgroundID": "6",
+    "next": "23",
+    "options": null,
+    "text": "Under the symbol faintly shines a blue arrow pointing down. You summon your mighty strength that you built through all these years by repeatedly carrying groceries for your mom. You try to topple the pillar…"
+  },
+  "23": {
+    "backgroundID": "6",
+    "next": "24",
+    "options": null,
+    "text": "It wasn’t as heavy as you had anticipated and it falls to the bottle cap filled ground. Under it, you notice there’s a mask with a symbol that looks like [the player’s favourite thing]..."
+  },
+  "24": {
+    "backgroundID": "6",
+    "next": "25",
+    "options": null,
+    "text": "You manage to pull the mask out."
+  },
+  "25": {
+    "backgroundID": "6",
+    "next": "26",
+    "options": null,
+    "text": "The mask is all dirty. You clean it by rubbing it against your suit."
+  },
+  "26": {
+    "backgroundID": "6",
+    "next": "27",
+    "options": null,
+    "text": "You managed to take some of the dirt off of it. (Good job you clean freak.)"
+  },
+  "27": {
+    "backgroundID": "6",
+    "next": "28",
+    "options": null,
+    "text": "You are starting to get tired, better get going to your ship."
+  },
+  "28": {
+    "backgroundID": "7",
+    "next": "29",
+    "options": null,
+    "text": "Didn’t know it could rain in the this planet? It does, and it’s normal water rain, unlike the planet’s moon weird Bepis™ rain."
+  },
+  "29": {
+    "backgroundID": "7",
+    "next": "30",
+    "options": null,
+    "text": "You were close to the spaceship but you forgot to bring spare clothes for your escape. So it’s better to wait in this cave a little bit for the rain to calm down."
+  },
+  "30": {
+    "backgroundID": "7",
+    "next": "31",
+    "options": null,
+    "text": "You light up a fire and explore this small cave…"
+  },
+  "31": {
+    "backgroundID": "7",
+    "next": "32",
+    "options": null,
+    "text": "There is a weird formation on one of the walls, it appears to be a slot for some kind of face, perhaps the mask? On the forehead, it has a symbol that looks like [the player’s favourite thing]."
+  },
+  "32": {
+    "backgroundID": "7",
+    "next": "33",
+    "options": null,
+    "text": "Equip the mask and shove your face into the wall."
+  },
+  "33": {
+    "backgroundID": "7",
+    "next": "34",
+    "options": null,
+    "text": "You hear a sound of something moving and the wall starts sliding upwards."
+  },
+  "34": {
+    "backgroundID": "7",
+    "next": "35",
+    "options": null,
+    "text": "As the wall opens, a blue light starts shining from within the room in front of you. You see a blue crystal bottle."
+  },
+  "35": {
+    "backgroundID": "7",
+    "next": "36",
+    "options": null,
+    "text": "You take the bottle and on its back there’s a label which reads: “Diamond Cola™: doesn’t give you wings, but it can take you to the moon.”"
+  },
+  "36": {
+    "backgroundID": "7",
+    "next": "37",
+    "options": null,
+    "text": "You take the Diamond Cola™ back to your spaceship and pour it into your fuel tank."
+  },
+  "37": {
+    "backgroundID": "7",
+    "next": "0",
+    "options": null,
+    "text": "You startup the ship and the fuel is barely enough to get you to the moon."
   }
 }
