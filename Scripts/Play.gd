@@ -3,7 +3,7 @@ extends Control
 func _on_DialogueBox_update_background(background_id):
 	var tex = ImageTexture.new()
 	var img = Image.new()
-	img.load("res://Art/1x/" + background_id + ".png")
+	img.load("res://Art/1x/" + String(background_id) + ".png")
 	tex.create_from_image(img)
 	
 	$Background.set_expand(true)
