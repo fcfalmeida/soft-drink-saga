@@ -7,6 +7,8 @@ var milestone_database: MilestoneDatabase
 var FIRST = '1'
 var current_dialogue
 
+signal update_background
+
 func _init():
 	dialogue_database = DialogueDatabase.new()
 	current_dialogue = dialogue_database.find_by_id(FIRST)
@@ -31,6 +33,7 @@ func advance_dialogue():
 			current_dialogue = dialogue_database.find_by_id(current_dialogue.next)
 			complete_milestone(current_dialogue)
 			show_current_dialogue()
+			update_background()
 		else:
 			show_milestone_required(current_dialogue)
 		
@@ -54,7 +57,7 @@ func show_current_dialogue():
 		dialogue_box_text += String(optionCount) + '. ' + option.text + '\n'
 		optionCount += 1
 	
-	$Panel/DialogueText.set_bbcode(dialogue_box_text)
+	$DialogueText.set_bbcode(dialogue_box_text)
 	
 func show_milestone_required(dialogue):
 	var milestone_id = dialogue.required_milestone
@@ -76,3 +79,6 @@ func check_required_milestone(dialogue) -> bool:
 func complete_milestone(dialogue):
 	if dialogue.complete_milestone != null:
 		milestone_database.complete_milestone(dialogue.complete_milestone)
+		
+func update_background():
+	emit_signal('update_background', current_dialogue.backgroundID)
