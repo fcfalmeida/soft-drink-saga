@@ -33,10 +33,6 @@ func advance_dialogue():
 			show_current_dialogue()
 		else:
 			show_milestone_required(current_dialogue)
-	if current_dialogue.next == null:
-		$Panel/NextButton.hide()
-	else:
-		$Panel/NextButton.show()
 		
 func choose_dialogue_option(option):
 	var result_dialogue_id = current_dialogue.options[option-1].result_dialogue
@@ -53,8 +49,10 @@ func show_current_dialogue():
 	var dialogue_box_text = ''
 	dialogue_box_text += current_dialogue.text + '\n'
 	
+	var optionCount = 1
 	for option in current_dialogue.options:
-		dialogue_box_text += option.text + '\n'
+		dialogue_box_text += String(optionCount) + '. ' + option.text + '\n'
+		optionCount += 1
 	
 	$Panel/DialogueText.set_bbcode(dialogue_box_text)
 	
